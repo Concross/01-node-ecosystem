@@ -2,7 +2,7 @@
 const greet = require('../lib/greet');
 
 test('Should return null for non-string values', () => {
-  let expectedNullValues = [true, false, 1, {}, [], undefined, null];
+  let expectedNullValues = [true, 1, {}, [], undefined, null];
   expectedNullValues.forEach(val => expect(greet(val)).toBeNull());
 });
 

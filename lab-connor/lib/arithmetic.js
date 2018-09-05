@@ -1,12 +1,13 @@
 'use strict';
 
-module.exports = exports = () => {
+module.exports = exports = {}
 
-  exports.add = () => {
+exports.add = (firstNum, secondNum) => {
+  if (typeof firstNum !== 'number' || typeof secondNum !== 'number') return null;
+  return firstNum + secondNum;
+};
 
-  };
-
-  exports.sub = () => {
-
-  };
+exports.sub = (firstNum, secondNum) => {
+  if (typeof firstNum !== 'number' || typeof secondNum !== 'number') return null;
+  return firstNum - secondNum;
 };
