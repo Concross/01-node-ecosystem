@@ -37,4 +37,5 @@ test('Should return null if any args are NaN', () => {
   expect(sub(null, 2)).toBeNull();
   expect(sub(undefined, 2)).toBeNull();
   expect(sub('2', '2')).toBeNull();
-})
+
+});
