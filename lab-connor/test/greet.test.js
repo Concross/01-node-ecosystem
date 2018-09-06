@@ -1,4 +1,7 @@
 'use strict';
+
+// travis test
+
 const greet = require('../lib/greet');
 
 test('Should return null for non-string values', () => {
