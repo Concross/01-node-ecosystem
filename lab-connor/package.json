@@ -1,0 +1,28 @@
+{
+  "name": "lab-connor",
+  "version": "1.0.0",
+  "description": "Lab for creating greet and arithmetic modules",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest **/*.test.js",
+    "lint": "eslint **/.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concross/01-node-ecosystem.git"
+  },
+  "author": "Connor Crossley <cacrossley22@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/concross/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/concross/01-node-ecosystem#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "jest": "^23.5.0"
+  }
+}
